@@ -18,7 +18,7 @@ demo:
 
 1. 创建托管标识****。 详细了解[托管标识](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview)。
 
-1. 使用默认值创建密钥保管库****。 详细了解 [Azure 密钥保管库](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview)。
+1. 创建**密钥保管库**。 采用默认值（在“**访问配置**”选项卡上**除外**），确保已选择“**保管库访问策略**”。 详细了解 [Azure 密钥保管库](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview)。
 
 1. 等待密钥保管库部署完成，然后再转到资源****。
 
