@@ -50,7 +50,7 @@ demo:
 
 1. 查看页面顶部的设置。 例如，“上传”**** 和“更改大小和性能”****。
 
-1. 讨论快照的用途。 详细了解[文件共享快照](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files)。
+1. [支持幻灯片] 讨论快照的用途。 详细了解[文件共享快照](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files)。
 
 1. 在“操作”**** 边栏选项卡中，选择“快照”****。
 
