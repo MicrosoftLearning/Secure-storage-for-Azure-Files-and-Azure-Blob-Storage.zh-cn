@@ -78,7 +78,7 @@ demo:
 
 ## 配置基础结构加密的加密范围。
 
-1. 开发人员还需要在容器级别确定基础结构加密的范围。 讨论加密范围和基础结构加密。 详细了解[加密范围](https://learn.microsoft.com/azure/storage/blobs/encryption-scope-overview)。
+1. [支持幻灯片] 开发人员还需要将基础结构加密的范围限定在容器级别。 讨论加密范围和基础结构加密。 详细了解[加密范围](https://learn.microsoft.com/azure/storage/blobs/encryption-scope-overview)。
 
 1. 在存储帐户**** 中继续操作。
 
