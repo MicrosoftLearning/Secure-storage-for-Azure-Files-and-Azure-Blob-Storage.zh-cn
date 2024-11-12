@@ -20,7 +20,7 @@ IT 部门需要为不同的存储方案创建原型并培训新人员。 内容�
 1. 创建并部署资源组以保留所有项目资源。 了解有关 [资源组](https://learn.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal)的详细信息。
     - 在 Azure 门户中，搜索并选择 `Resource groups`。
     - 选择“+ 新建”。
-    - 为资源组指定名称****。 例如 `storagerg`。
+    - 为资源组指定名称****。 例如，`storagerg`。
     - 选择区域****。 在整个项目中使用此区域。 
     - 选择“查看并创建”**** 以验证资源组。
     - 选择“创建”**** 以部署资源组。
@@ -62,3 +62,23 @@ IT 部门需要为不同的存储方案创建原型并培训新人员。 内容�
     - 务必保存你的更改。 
 
 >**备注**：如需进行额外练习，请完成[创建 Azure 存储帐户](https://learn.microsoft.com/training/modules/create-azure-storage-account/)模块。 该模块有一个沙盒，可在其中练习创建存储帐户。
+
+## 使用 Copilot 扩展学习
+
+Copilot 可以协助你完成学习之旅。 Copilot 可以提供基本的技术信息、高级步骤、优点和缺点、故障排除帮助、用例、编码示例等。 要访问 Copilot，请打开 Edge 浏览器，然后选择 Copilot（右上角）。 花几分钟时间尝试这些提示。
++ 什么是 Azure 存储帐户？ 有哪些 Azure 存储帐户类型可用？
++ 创建比较 Azure 存储性能层的表。 重点介绍其关键功能和用例。 
++ 有哪些 Azure 存储冗余选项可用？ 应何时使用每个选项？
+
+## 通过自定进度的培训了解详细信息
+
++ [介绍 Azure 存储服务](https://learn.microsoft.com/training/modules/describe-azure-storage-services/)。 在本模块中，你将比较 Azure 存储服务、描述存储层，以及描述冗余选项。
++ [创建 Azure 存储帐户](https://learn.microsoft.com/training/modules/create-azure-storage-account/)。 在本模块中，你将创建和配置存储帐户。 
+
+## 关键结论
+
+恭喜你完成本实验室的内容。 下面是本实验室的主要重点。 
++ Azure 存储帐户是一个容器，用于保存包括 Blob、文件、队列和表在内的所有 Azure 存储数据对象。
++ Azure 存储提供多种类型的存储帐户：标准和高级。 每种类型支持不同的功能，并且具有自己的定价模型。
++ Azure 存储会始终存储数据的多个副本，以保护它免受计划内和计划外事件的影响。
++ 冗余模型可以复制主要区域和次要区域中的数据。 
