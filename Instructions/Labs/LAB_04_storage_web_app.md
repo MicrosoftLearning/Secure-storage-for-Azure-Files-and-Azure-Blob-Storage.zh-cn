@@ -140,3 +140,28 @@ lab:
 
 
 >**备注**：如需进行额外练习，请完成[使用用网络安全组和服务终结点来保护和隔离对 Azure 资源的访问](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/)模块。 该模块有一个沙盒，可在其中进一步练习限制对存储的访问。
+
+## 清理资源
+
+如果使用**自己的订阅**并且已完成这些实验室，请花点时间删除实验室资源。 这将确保资源得到释放，并将成本降至最低。 删除实验室资源的最简单方法是删除实验室资源组。 
+
++ 在 Azure 门户中，选择资源组，选择“删除资源组”，输入资源组名称，然后单击“删除”************。
++ `Remove-AzResourceGroup -Name resourceGroupName`（使用 Azure PowerShell）。
++ `az group delete --name resourceGroupName`（使用 CLI）。
+
+## 使用 Copilot 扩展学习
+
+Copilot 可以协助你完成学习之旅。 Copilot 可以提供基本的技术信息、高级步骤、优点和缺点、故障排除帮助、用例、编码示例等。 要访问 Copilot，请打开 Edge 浏览器，然后选择 Copilot（右上角）。 花几分钟时间尝试这些提示。
++ 什么是 Azure 托管标识以及如何将其用于 Azure 存储？
++ 哪些内置的基于角色的访问控制 (RBAC) 角色可用于管理对 Azure 存储的访问权限。 
++ 什么是客户管理的密钥及其如何用于 Azure 存储？
+
+## 通过自定进度的培训了解详细信息
+
++ [使用网络安全组和服务终结点来保护和隔离对 Azure 资源的访问](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/)。 本模块介绍如何使用虚拟网络服务终结点控制传入和传出 Azure 服务的网络流量。
+
+## 关键结论
++ Azure 具有适用于 Azure 存储的内置 RBAC 角色。 这些角色包括：存储帐户参与者、存储 Blob 数据所有者和文件数据 SMB 共享参与者。
++ 可以使用自己的加密密钥来保护存储帐户中的数据。 指定客户托管密钥时，该密钥用于保护和控制对数据加密密钥的访问。 
++ 不可变存储可确保在用户指定的时间间隔内无法修改或删除数据。 有两种类型的不可变策略：基于时间和法定保留。
++ 可以为整个存储帐户或帐户内的加密范围启用基础结构加密。 对于需要对数据进行双重加密以满足合规性要求的场景，建议使用基础结构加密。 
